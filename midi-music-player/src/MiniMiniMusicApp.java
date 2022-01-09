@@ -24,7 +24,7 @@ public class MiniMiniMusicApp {
 			b.setMessage(128,1,44,100);
 			MidiEvent noteOff = new MidiEvent(b,16);
 			track.add(noteOff);
-			
+			//test
 			player.setSequence(seq);
 			
 			player.start();
@@ -33,6 +33,8 @@ public class MiniMiniMusicApp {
 		}
 	
 	}
+	
+	
 	
 	
 }
